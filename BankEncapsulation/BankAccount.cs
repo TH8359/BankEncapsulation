@@ -6,7 +6,7 @@ public class BankAccount
 
     public void Deposit(double newBalance)
     {
-        _balance = newBalance;
+        _balance += newBalance;
     }
 
     public double GetBalance()
